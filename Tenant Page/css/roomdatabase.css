@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: url(../../image/gambar.jpg) no-repeat center center/cover;    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    backdrop-filter: blur(8px);
+}
+.container::before{
+    content: "";
+    background: url(../..image/gambar.jpg) no-repeat center center/cover;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+body .ruangan {
+  padding: 9px;
+}
+
+body .title{
+  text-align: center;
+  padding-top: 20px;
+}
+
+body .ruangan button{
+  color: white;
+}
+
+.ruangan{
+  margin: 10px;
+}
+
+.top:link,
+.top:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.top:hover,
+.top:active {
+  background-color: none;
+}
+
+.btn-secondary{
+  text-align: center;
+}
+
+.btn-info{
+  text-align: left;
+}
+
+.insidetable button{
+  text-align: center;
+}
+
+.insidetable .delete {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.btn:hover {
+  background: gray;
+}
+
+.btn:hover>a {
+  color: black
+}
+
+body .insidetable{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+body .insidetable button{
+  margin: 10px;
+}

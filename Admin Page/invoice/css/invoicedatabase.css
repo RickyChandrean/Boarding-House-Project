@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+img.background {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(10px);
+  /* Safari 6.0 - 9.0 */
+  filter: blur(10px);
+}
+
+.title{
+  text-align: center;
+    padding-top: 20px;
+}
+
+.ruangan{
+  margin: 30px;
+}
+
+.button{
+  padding-bottom: 20px;
+}
+
+.button a{
+  padding: 10px;
+}
+
+form button a{
+  text-decoration: none;
+  color: white;
+}
+
